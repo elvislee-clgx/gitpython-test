@@ -2,7 +2,7 @@ from git import Repo
 
 PATH_OF_GIT_REPO = r'/Users/polee/IdeaProjects/gitpython-test/.git'
 
-COMMIT_MESSAGE = 'test the 4nd commit'
+COMMIT_MESSAGE = 'test the 5th commit'
 
 def git_push():
     try:
@@ -12,6 +12,7 @@ def git_push():
 
         origin = repo.remote(name='origin')
         origin.push()
+        print('A new commit "{}" is pushed successfully!'.format(COMMIT_MESSAGE))
 
     except:
         print('Some error occurred while pushing the code')
