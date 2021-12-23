@@ -1,11 +1,9 @@
 from git import Repo
 import sys
 
-local_repo_path = sys.argv[1]
+PATH_OF_GIT_REPO = sys.argv[1]
 
-PATH_OF_GIT_REPO = local_repo_path
-
-COMMIT_MESSAGE = 'test the 10th commit'
+COMMIT_MESSAGE = 'test the 11th commit'
 
 def git_push():
     try:
