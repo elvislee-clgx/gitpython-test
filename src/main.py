@@ -1,8 +1,11 @@
 from git import Repo
+import sys
 
-PATH_OF_GIT_REPO = r'/Users/polee/IdeaProjects/gitpython-test/.git'
+local_repo_path = sys.argv[1]
 
-COMMIT_MESSAGE = 'test the 8th commit'
+PATH_OF_GIT_REPO = local_repo_path
+
+COMMIT_MESSAGE = 'test the 9th commit'
 
 def git_push():
     try:
