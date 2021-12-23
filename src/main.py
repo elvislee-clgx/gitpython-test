@@ -2,7 +2,7 @@ from git import Repo
 
 PATH_OF_GIT_REPO = r'/Users/polee/IdeaProjects/gitpython-test/.git'
 
-COMMIT_MESSAGE = 'test the 7th commit'
+COMMIT_MESSAGE = 'test the 8th commit'
 
 def git_push():
     try:
