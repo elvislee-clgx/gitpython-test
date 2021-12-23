@@ -5,7 +5,7 @@ local_repo_path = sys.argv[1]
 
 PATH_OF_GIT_REPO = local_repo_path
 
-COMMIT_MESSAGE = 'test the 9th commit'
+COMMIT_MESSAGE = 'test the 10th commit'
 
 def git_push():
     try:
