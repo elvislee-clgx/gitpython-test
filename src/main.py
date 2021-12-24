@@ -4,7 +4,7 @@ import sys
 # Use the path to your local .git folder
 PATH_OF_GIT_REPO = sys.argv[1]
 
-COMMIT_MESSAGE = 'Added PYTHONPATH with the /Users/polee/Library/Python/3.8/lib/python/site-packages since gitpython is located here'
+COMMIT_MESSAGE = 'Test PYTHONPATH permanently installed by adding export in ~/.zshrc'
 
 def git_push():
     try:
